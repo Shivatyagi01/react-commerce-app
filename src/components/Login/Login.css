@@ -1,0 +1,42 @@
+.Login form input {
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  margin: 10px 0;
+  background: rgba(94, 104, 33, 0.09);
+}
+.Login form label {
+  color: #242424;
+  font-weight: 500;
+}
+.Login form label sup {
+  color: red;
+}
+.forgot-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.forgot-flex .remember-me {
+  color: #242424;
+}
+.forgot-flex .remember-me input {
+  width: auto;
+  margin-right: 10px;
+}
+.forgot-flex .lost-password a {
+  color: #5e6821;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+}
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 47px;
+  opacity: 0.6;
+}
+.Login div {
+  position: relative;
+}

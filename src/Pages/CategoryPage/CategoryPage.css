@@ -1,0 +1,6 @@
+.grid {
+  display: flex;
+}
+.grid .productBox {
+  width: 25%;
+}

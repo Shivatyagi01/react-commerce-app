@@ -1,0 +1,135 @@
+.about-hero h1 {
+  font-size: 68px;
+  line-height: 78px;
+  color: #242424;
+  font-family: "Clash Display";
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.about-hero .about-img {
+  text-align: center;
+}
+.about-us .row {
+  display: flex;
+}
+.about-us .row .about-column {
+  width: 50%;
+  display: inline-block;
+}
+.about-us .row .about-column .about-cont {
+  padding-right: 100px;
+}
+.about-us .row .about-column .about-cont h1 {
+  font-size: 48px;
+  font-family: "Clash Display";
+  line-height: 58px;
+  color: #242424;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.about-us .row .about-column .about-cont p {
+  color: #777777;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.about-us .row .about-column ul {
+  list-style: none;
+  padding: 0;
+}
+.about-column ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  border-top: 2px solid #5e6821 !important;
+  line-height: 38px;
+  color: #242424;
+  font-size: 28px;
+  font-family: "Clash Display";
+  font-weight: 500;
+}
+.about-column ul li:last-child {
+  border-bottom: 2px solid #5e6821 !important;
+}
+.about-column ul li span {
+  font-size: 48px;
+  color: #bbb;
+  font-family: "Clash Display";
+}
+.about-slider {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #5e6821;
+}
+.about-slider img {
+  width: 100%;
+}
+/* team-content */
+.team-content h1 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #242424;
+  font-family: "Clash Display";
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.team-content p {
+  margin-bottom: 20px;
+}
+.team-box {
+  overflow: hidden;
+  position: relative;
+  max-height: 600px;
+}
+.team-box .team-img img {
+  transition: transform 0.5s ease;
+}
+.team-box:hover .team-img img {
+  transform: scale(1.1);
+}
+.team-box .team-img img {
+  width: 100%;
+}
+.team-box-content {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  padding: 20px;
+  background: linear-gradient(
+    transparent 0%,
+    rgba(var(--bgcolor-white-rgb), 0.61) 100%
+  );
+  width: 100%;
+  text-align: center;
+}
+.social-icons-team {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.social-icons-team li {
+  display: inline-block;
+  margin: 5px;
+  line-height: 40px;
+}
+.social-icons-team li a {
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff28;
+  overflow: hidden;
+  display: block;
+  border-radius: 50%;
+}
+.team-box-content h3 {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 39px;
+  font-weight: 500;
+  font-family: "Clash Display";
+}
+p.position {
+  color: #fff9;
+}
+.team-section .row .column {
+  padding: 5px;
+}

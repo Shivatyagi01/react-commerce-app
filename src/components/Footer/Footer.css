@@ -1,0 +1,111 @@
+footer {
+}
+footer .footer-container {
+  width: 95%;
+  margin: auto;
+}
+footer .row {
+  display: flex;
+  border-style: solid none solid;
+  border-width: 2px;
+  border-color: #5e6821;
+  padding: 100px 0;
+}
+footer .footer-about-column {
+  width: 40%;
+  padding-right: 100px;
+  margin-right: 40px;
+  border-right: 2px solid #5e6821;
+}
+.footer-about-column .footer-logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.footer-links-column {
+  width: 20%;
+}
+.footer-links-column h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Clash Display";
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #242424;
+  line-height: 34px;
+}
+.footer-links-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links-column ul li {
+  padding: 10px 0;
+}
+.footer-links-column ul li a {
+  color: #000000;
+}
+.footer-copyright {
+  padding: 15px 40px;
+  font-size: 14px;
+}
+.footer-links-column ul.contact-list {
+}
+.footer-about-column form {
+  margin-bottom: 20px;
+}
+.footer-about-column h3 {
+  font-size: 24px;
+  font-family: "Clash Display";
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #242424;
+  line-height: 34px;
+}
+.footer-about-column input {
+  background-color: #e8e6db;
+  padding: 15px 10px;
+  border: none;
+  margin-right: 10px;
+  display: inline-block;
+  width: 70%;
+}
+.footer-about-column button {
+  padding: 15px 30px;
+  border: none;
+  color: #ffffff;
+  background: #5e6821;
+  display: inline-block;
+}
+
+.footer-about-column p {
+  color: #777;
+}
+.social-icons {
+  padding-top: 30px;
+}
+.social-icons ul {
+  list-style: none;
+  padding: 0;
+}
+.social-icons ul li {
+}
+.social-icons ul li:hover {
+  background: #5e6821;
+  fill: #ffffff;
+  color: #ffffff;
+}
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid #5e6821;
+  border-radius: 50%;
+  margin: 4px;
+  color: #5e6821;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40px;
+}
+.social-icons a:hover {
+  background: #5e6821;
+  color: #ffffff;
+}

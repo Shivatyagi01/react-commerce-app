@@ -1,0 +1,48 @@
+.contactSection {
+  padding-top: 30px;
+}
+.contactSection .row .column h1 {
+  font-size: 68px;
+  line-height: 78px;
+  color: #242424;
+  font-weight: 500;
+  font-family: "Clash Display";
+  margin-bottom: 20px;
+}
+.contactSection .row .column p {
+  color: #777777;
+  margin-bottom: 20px;
+}
+.contactSection .row .column a {
+  margin-bottom: 20px;
+}
+.contactSection .row .column ul {
+  list-style: none;
+  padding: 0;
+}
+.contactSection .row .column ul li {
+  display: inline-block;
+  margin: 0;
+}
+.contactSection .row .column ul li a {
+  color: #5e6821;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #5e6821;
+  overflow: hidden;
+  display: block;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  margin: 5px;
+}
+.contactSection .row .column ul li:first-child {
+  margin-left: 0;
+}
+.contactImg {
+  padding: 0 50px;
+}
+.contactImg img {
+  width: 100%;
+  height: 100%;
+}

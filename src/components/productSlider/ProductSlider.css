@@ -1,0 +1,31 @@
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 1;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 36px;
+  opacity: 1;
+  color: #ffffff;
+}
+.slick-prev,
+.slick-next {
+  width: auto;
+  height: auto;
+  top: 50%;
+  z-index: 999;
+}
+.slider-1:hover .slick-prev {
+  left: 10px;
+}
+.slider-1:hover .slick-next {
+  right: 10px;
+}
+.slider-1 .slick-prev {
+  left: -30px;
+  transition: all 0.3s linear;
+}
+.slider-1 .slick-next {
+  right: -30px;
+  transition: all 0.3s linear;
+}

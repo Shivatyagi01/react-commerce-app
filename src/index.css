@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url(./assets/fonts/Satoshi/Satoshi.ttf);
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url(./assets/fonts/ClashDisplay/ClashDisplay.ttf);
+}
+.ClashDisplay {
+  font-family: "Clash Display";
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi";
+}
+body,
+html {
+  background-color: rgb(246, 243, 237);
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+.page-boxed {
+  max-width: 95%;
+  margin: auto;
+}
+section {
+  padding: 60px 0;
+}
+.title-section {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.title-section h2 {
+  font-size: 28px;
+  font-family: "Clash Display";
+  font-weight: 500;
+}
+.title-section a {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Clash Display";
+}
+.page-title {
+  padding: 30px 0;
+  font-size: 28px;
+  font-family: "Clash Display";
+  line-height: 34px;
+  color: #5e6821;
+  font-weight: 500;
+}
+.page-title p {
+  font-size: 28px;
+  line-height: 34px;
+  color: #5e6821;
+  font-weight: 500;
+  font-family: "Clash Display";
+}
+.row {
+  display: flex;
+}
+.primary-btn {
+  padding: 5px 20px;
+  min-height: 36px;
+  font-size: 13px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 0;
+  box-shadow: none;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  line-height: 1.2;
+  cursor: pointer;
+  background-color: rgb(94, 104, 33);
+  color: #ffffff;
+}
+.row .column {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777777;
+  font-weight: 500;
+}

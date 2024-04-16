@@ -1,0 +1,43 @@
+.instagramGrid {
+  display: flex;
+  gap:20px;
+}
+.instagramGrid .card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.instagramGrid .card .card-front{
+  display: flex;
+}
+.instagramGrid .card .card-front img{
+    width: 100%;
+}
+.card-back {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    transition: all 0.6s ease-in-out;
+    padding-top: 80%;
+}
+.card-back ul {
+    list-style: none;
+    padding: 0;
+}
+.card-back ul li {
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.instagramGrid .card:hover .card-back {
+  top: 0;
+}

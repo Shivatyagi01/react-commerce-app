@@ -1,0 +1,186 @@
+.coupon-top {
+  text-align: center;
+}
+.coupon-top p {
+  font-weight: 600;
+  color: #000000;
+}
+.coupon-top a {
+  color: #5e6821;
+  text-decoration: underline;
+}
+.title-section.underline {
+  border-bottom: 2px solid #5e6821;
+}
+.your-order-section {
+  padding: 0 30px;
+  background: #e7e5d9;
+}
+.checkout-page .row {
+  gap: 30px;
+}
+.checkout-page .row .column .title-section {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.checkout-form-section input,
+.checkout-form-section select,
+.css-13cymwt-control {
+  width: 100%;
+  min-height: 40px;
+  border: 0 !important;
+  padding: 10px;
+  background: #e8e6db !important;
+  border-radius: 0 !important;
+}
+.checkout-form-section input::placeholder {
+  font-weight: 500;
+}
+select:focus {
+  min-width: 150px;
+  width: auto;
+}
+.checkout-page .checkout-form-section div.form-group {
+  padding-top: 10px;
+}
+.checkout-page .checkout-form-section .form-two-column {
+  width: 50%;
+  display: inline-block;
+}
+.checkout-page .checkout-form-section .form-two-column:nth-child(1) {
+  padding-right: 20px;
+}
+.checkout-page .checkout-form-section form label {
+  color: #242424;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.css-13cymwt-control {
+  border: none;
+}
+.css-1u9des2-indicatorSeparator {
+  display: none;
+}
+.stree-two input {
+  margin-bottom: 10px;
+}
+.css-art2ul-ValueContainer2 {
+  padding: 0 !important;
+}
+#react-select-3-input {
+  background: transparent !important;
+}
+.css-13cymwt-control {
+  padding: 0 10px !important;
+  max-height: 40px !important;
+}
+.css-w9q2zk-Input2 {
+  max-height: 40px !important;
+}
+.css-w9q2zk-Input2:focus {
+  background: #000000 !important;
+}
+.products-checkout table .table-img img {
+  width: 70px;
+}
+.products-checkout table {
+  width: 100%;
+}
+.products-checkout .quantityInput {
+  justify-content: flex-start;
+}
+.products-checkout .subtotal {
+  text-align: right;
+}
+.products-checkout table .table-th-2 {
+  text-align: right;
+}
+.products-checkout table .table-th-1 {
+  text-align: left;
+}
+.products-checkout table thead tr th {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+}
+.products-checkout table tbody tr td {
+  padding-top: 10px;
+}
+.products-checkout .quantityInput input {
+  height: 30px;
+}
+.products-checkout .product-name {
+  margin-bottom: 10px;
+  color: #333333;
+  font-size: 16px;
+}
+.your-order-section .products-checkout .checkoutTotalPrice {
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.105);
+}
+.your-order-section .products-checkout .checkoutTotalPrice p {
+  font-size: 18px;
+  color: #333333;
+}
+.your-order-section .products-checkout .checkoutTotalPrice p span {
+  float: right;
+  color: #5e6821;
+  font-weight: 600;
+  font-size: 24px;
+}
+.your-order-section .products-checkout .checkout-btn {
+  padding: 20px 0;
+}
+.form-payment-methods form div {
+  padding: 5px 0;
+}
+.form-payment-methods form div label {
+  color: #242424;
+  font-weight: 500;
+}
+.form-payment-methods form div.payment-desc {
+  background: #e1dfd3;
+  padding: 10px;
+  margin-top: 10px;
+}
+.form-payment-methods {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+}
+.coupon-enter {
+  max-width: 470px;
+  background-color: rgb(231, 229, 217);
+  border-style: none;
+  margin: 0 auto;
+  position: relative;
+  padding: 30px;
+  margin-top: 25px;
+}
+.coupon-enter input {
+  border: 0;
+  padding: 10px;
+  background: rgba(94, 104, 33, 0.09);
+  margin-right: 10px;
+}
+.coupon-enter input::placeholder {
+  font-weight: 500;
+}
+.coupon-enter p {
+  color: #777777;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.coupon-enter form {
+  display: flex;
+}
+.coupon-enter form input {
+  float: none;
+  flex: 1 1 auto;
+  height: 40px;
+}

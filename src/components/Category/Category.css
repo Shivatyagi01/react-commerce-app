@@ -1,0 +1,24 @@
+.shop-filter {
+  padding: 60px 30px 60px 0;
+}
+.shop-filter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.shop-filter ul li {
+}
+.shop-filter ul li a {
+  width: 100%;
+  color: #000000;
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.shop-filter ul li:hover {
+  background-color: #5E6821;
+  color: #ffffff;
+}
+.shop-filter ul li:hover a {
+  color: #ffffff;
+}

@@ -1,0 +1,45 @@
+.home-section {
+  padding: 40px 0;
+  border-bottom: 2px solid #5e6821;
+}
+.home-section .home-wrapper {
+  display: flex;
+}
+.home-section .home-wrapper .left-hero {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.home-section .home-wrapper .left-hero ul {
+  list-style: none;
+}
+.home-section .home-wrapper .left-hero ul li a {
+  padding: 15px 10px;
+  font-size: 38px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-family: "Clash Display";
+  color: #333333;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.home-section .home-wrapper .left-hero ul li:hover a {
+  color: #5e6821;
+}
+.home-section .home-wrapper .left-hero ul li svg {
+  transform: rotate(-45deg);
+  margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.home-section .home-wrapper .left-hero ul li:hover svg {
+  transform: none;
+}
+.home-section .home-wrapper .slider {
+  width: 75%;
+  padding: 0 30px;
+  border-left: 2px solid #5e6821;
+}
+.home-section .home-wrapper .slider img {
+  width: 100%;
+}
